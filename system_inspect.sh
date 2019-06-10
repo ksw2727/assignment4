@@ -15,7 +15,7 @@
     echo $separatorline
 
 #3. Print out the "full" status of the following services:ntpd sshd snmpd #Print out the "separator line"
-    systemctl status ntpd
+    systemctl status ntpd sshd snmpd
     echo $separatorline
 
 #4. Install the package cowsay #Print out the "yum info" for cowsay #Print out the "separator line"
